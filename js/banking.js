@@ -11,8 +11,6 @@ document.getElementById('deposit-button').addEventListener('click', function() {
     const previousDepositAmountText = depositTotalField.innerText
     const previousDepositAmount = parseFloat(previousDepositAmountText) // num
 
-
-
     const newDepositTotalField = previousDepositAmount + newDepositAmount
 
     depositTotalField.innerText = newDepositTotalField
@@ -40,7 +38,6 @@ document.getElementById('withdraw-button').addEventListener('click', function() 
     const withdrawTotalField = document.getElementById('withdraw-total');
     const previousWithdrawTotalText = withdrawTotalField.innerText
     const previousWithdrawTotal = parseFloat(previousWithdrawTotalText); // num
-
 
     const newwWithdrawTotalField = previousWithdrawTotal + newWithdrawAmount;
 
